@@ -64,6 +64,7 @@ mark {
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
+	overflow: scroll;
 }
 
 input, select, textarea {
@@ -2619,6 +2620,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
+		overflow: scroll;
 	}
 
 		#header > * {
@@ -2627,6 +2629,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			width: 100%;
+			overflow: scroll;
 		}
 
 		#header > .inner {
@@ -2635,6 +2638,7 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: -4em 0 2em 0;
+			overflow: scroll;
 		}
 
 		#header strong, #header b {
@@ -3023,6 +3027,7 @@ input, select, textarea {
 
 				#header > .inner {
 					margin-bottom: 0;
+					overflow: scroll;
 				}
 
 		/* Footer */
