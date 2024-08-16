@@ -154,10 +154,11 @@ input, select, textarea {
 	h1 {
 		font-size: 2em;
 		line-height: 1.5em;
+		margin: 0;
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.4em;
 		line-height: 1.5em;
 		margin: 0;
 	}
@@ -169,8 +170,9 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 1.25em;
-		line-height: 1.5em;
+		font-size: 1.7em;
+		line-height: 1.7em;
+		margin: 0;
 	}
 
 	h5 {
@@ -2606,9 +2608,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: black;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/moon.jpeg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -3094,8 +3096,8 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-color: black;
+				background-image: url("images/overlay.png"), url("images/moon.jpeg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
