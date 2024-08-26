@@ -158,8 +158,8 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.4em;
-		line-height: 1.5em;
+		font-size: 1.2em;
+		line-height: 1.4em;
 		margin: 0;
 	}
 
@@ -170,8 +170,8 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 1.7em;
-		line-height: 1.7em;
+		font-size: 1.4em;
+		line-height: 1.4em;
 		margin: 0;
 	}
 
@@ -2621,7 +2621,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 28%;
 		overflow: auto;
 	}
 
@@ -2701,10 +2701,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 28%;
 		max-width: 70em;
-		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+		padding: 3em 3em 3em 3em;
+		width: calc(100% - 28%);
 	}
 
 		#main > section {
