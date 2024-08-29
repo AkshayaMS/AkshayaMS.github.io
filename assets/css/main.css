@@ -139,6 +139,12 @@ input, select, textarea {
 		font-size: 1.2em;
 		color: #606060;
 		word-break: break-word;
+		overflow-wrap: break-word;
+		-ms-word-wrap: break-word;
+		-ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3230,7 +3236,14 @@ input, select, textarea {
 		/* Basic */
 
 			p {
+				display: inline-block;
 				word-break: break-word;
+				overflow-wrap: break-word;
+				-ms-word-wrap: break-word;
+				-ms-hyphens: auto;
+        		-moz-hyphens: auto;
+				-webkit-hyphens: auto;
+				hyphens: auto;
 			}
 
 		/* Header */
