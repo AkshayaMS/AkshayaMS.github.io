@@ -3227,6 +3227,12 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+		/* Basic */
+
+			p {
+				word-break: break-word;
+			}
+
 		/* Header */
 
 			#header {
