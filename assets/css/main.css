@@ -138,6 +138,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		font-size: 1.2em;
 		color: #606060;
+		word-break: break-word;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
