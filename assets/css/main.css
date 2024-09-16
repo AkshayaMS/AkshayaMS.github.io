@@ -3237,8 +3237,8 @@ input, select, textarea {
 
 			p {
 				display: inline-block;
-				word-break: break-word;
-				overflow-wrap: break-word;
+				/*word-break: break-word;*/
+				/*overflow-wrap: break-word;*/
 				-ms-word-wrap: break-word;
 				-ms-hyphens: auto;
         		-moz-hyphens: auto;
